@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
 #include "athlete.h"
+using namespace std;
 
 Athlete::Athlete() {
 	name = "anyAthlete";
@@ -23,5 +24,5 @@ double Athlete::getSpeed(){
 }
 
 void Athlete::speedGain(double percent){
-	speed += speed * (percent/100.0);
+	speed = speed * (1 + (percent/100.0));
 }

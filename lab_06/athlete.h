@@ -1,5 +1,6 @@
 #ifndef ATHLETE_H
 #define ATHLETE_H
+#include <iostream>
 #include <string>
 using namespace std;
 
