@@ -1,0 +1,8 @@
+Lab 05
+class and objects
+Description
+For one class you defined in the previous lab, develop a program to:
+(1) Define at least one default object and one specified object;
+(2) Output all the data member values of the two objects respectively;
+(3) Update at least one feature of the two objects;
+(4) Output all the data member values of the two objects after the above updates respectively.
