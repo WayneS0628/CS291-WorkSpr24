@@ -1,0 +1,36 @@
+||Lab 02 Guess My Number||
+
+Description -
+
+This lab is to practice if/else statement and while or for loop. Your program should first 
+generate a random number between a and b (for example, between 1 and 100). Then ask the user 
+to guess what it is. If the user’s guess is too high, output “too high” to inform the user. 
+The same for a too low guess. Repeat it until the user’s guess is right (output congratulation 
+info and in how many times the user got it) or the user has tried too many times (e.g., your 
+program only allows the user to guess ten times at most). A sample running results of this lab 
+is as follows,
+
+-----------------------------------------------------------------------------------------------
+Welcome to Guess My Number
+
+I have a number in my mind between 1 and 100.
+
+Enter a guess: 50
+Too high!
+
+Enter a guess: 25
+Too high!
+
+Enter a guess: 12
+Congratulations! You got it in three times.
+
+-----------------------------------------------------------------------------------------------
+
+Note:
+1. The underlined numbers are user’s inputs.
+2. If the user has tried 10 times and still not got it. Output
+
+      Sorry, but you have tried too many times.
+      The number is 1. Feel free to play it again.
+
+then terminate the program.
