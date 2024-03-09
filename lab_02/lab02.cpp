@@ -3,13 +3,32 @@
 #include <ctime>
 using namespace std;
 
-int main(void){
+int genRanNum(){
 
     srand(static_cast<unsigned int>(time(NULL)));
 
-    int random = 1 + (rand() % 100);
+    int r = 1 + (rand() % 100);
 
-    cout << random << endl;
-    
+    return r;
+
+};
+
+int main(void){
+
+    int theNum = genRanNum();
+    int guess = 0;
+    int attempt = 0;
+
+    cout << endl << "Welcome to guess my number!" << endl;
+    cout << endl << "I have a number in my head from 1 - 100" << endl;
+
+    while (attempt < 10){
+        if (guess != theNum){
+            cout << "Enter a guess: ";
+        }
+    }
+
+
+
     return 0;
 }
