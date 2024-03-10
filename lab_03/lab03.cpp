@@ -12,7 +12,7 @@ class TV{
         int refreshRate; // in hertz
         
         void displayTV(){
-            cout << "This TV's made by " << brand << " and its size is " << size << " and its refresh rate is " << refreshRate << ".\n\n";
+            cout << "\n\nThis TV's made by " << brand << " and its size is " << size << " inches and its refresh rate is " << refreshRate << " HZ.\n\n";
         }
 };
 
@@ -24,7 +24,18 @@ class Console{
         string color;
         int price; // in USD       
         void displayConsole(){
-            cout << "This consoles's made by " << brand << " and it's a " << color << " console which goes for " << price << ".\n\n";
+            cout << "\n\nThis consoles's made by " << brand << " and it's a " << color << " console which goes for $" << price << ".\n\n";
         }
 };
 
+int main(void){
+    TV CU7000("Samsung", 55, 60);
+    TV C3("LG", 40, 120);
+    Console PS5("Playstation", "white", 499);
+    Console XboxOne("Xbox", "black", 499);
+
+    CU7000.displayTV();
+    C3.displayTV();
+    PS5.displayConsole();
+    XboxOne.displayConsole();
+}
