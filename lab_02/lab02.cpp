@@ -17,18 +17,25 @@ int main(void){
 
     int theNum = genRanNum();
     int guess = 0;
-    int attempt = 0;
+    
 
     cout << endl << "Welcome to guess my number!" << endl;
     cout << endl << "I have a number in my head from 1 - 100" << endl;
 
-    while (attempt < 10){
-        if (guess != theNum){
-            cout << "Enter a guess: ";
+    for (int attempt = 1; attempt < 10; attempt++){
+        cout << "Enter a guess: ";
+        cin >> guess;
+        if(guess > theNum){
+            cout << "Too high!\n\n";
+        }else if(guess < theNum) {
+            cout << "Too low!\n\n";
+        } else {
+            cout << "Congratulations! You got it in " << attempt << " tries!!\n\n";
+            return 0;
         }
     }
 
-
+    cout << "Sorry, but you have tried too many times.\nThe number was " << theNum <<". Feel free to play it again.\n\n"; 
 
     return 0;
 }
