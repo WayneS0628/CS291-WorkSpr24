@@ -4,4 +4,4 @@ Descrption -
 
 This lab is to practice declaring a composite data type class with encapsulations of its data members. Choose
 at least two real world objects and define a class for each respectively. Each class should contain at least three
-data members. Also give at least two examples of real world objects that fall in this class.
+data members. Also give at least two examples of real world objects that fall in this class!
