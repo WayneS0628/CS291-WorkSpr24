@@ -1,18 +1,23 @@
+#ifndef lab07_h
+#define lab07_h
 #include <iostream>
 #include <string>
+#include <cmath>
 using namespace std;
 
 class Sneaker{
     private:
         string name; 
-        int size;
+        double size;
         string color;
     public:
         Sneaker();
-        Sneaker(string n, int s, string c);
+        Sneaker(string n, double s, string c);
         string getName();
-        int getSize();
+        double getSize();
         string getColor();
         void whatSneak();
-        void setSize(int newSize);
+        void setSize(double newSize);
 };
+
+#endif
