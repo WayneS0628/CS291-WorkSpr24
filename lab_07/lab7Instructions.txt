@@ -1,0 +1,14 @@
+||Lab 07 Pointers and Dynamic Memory Allocation||
+
+Description -
+For one class you group defined in the previous lab, develop a program (C++ project) that includes:
+1. Header file (.h)
+2. Source file (.cpp)
+3. App file (main.cpp)
+
+(a) Define at least one default pointer object and one specified pointer object;
+(b) Output all the data member values of the two pointer objects respectively;
+(c) Update at least one feature of the two pointer objects;
+(d) Output all the data member values of the two pointer objects after the above updates
+respectively.
+(e) Deallocate the spaces assigned to the two pointer objects.
