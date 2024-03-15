@@ -29,13 +29,5 @@ class Console{
 };
 
 int main(void){
-    TV CU7000("Samsung", 55, 60);
-    TV C3("LG", 40, 120);
-    Console PS5("Playstation", "white", 499);
-    Console XboxOne("Xbox", "black", 499);
-
-    CU7000.displayTV();
-    C3.displayTV();
-    PS5.displayConsole();
-    XboxOne.displayConsole();
+    cout << "Examples of two objects that could fit here is and LG TV and Samsung TV and a PS5 and an Xbox\n\n";
 }
