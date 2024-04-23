@@ -1,0 +1,14 @@
+||Lab 08 Pointer Array||
+
+For the Soldier class we have been explored in class, develop a program 
+(C++ project) that can compute the soldiers’ average weight and include:
+
+1. Header file (.h)
+2. Source file (.cpp)
+3. App file (main.cpp)
+
+    - Define at least three soldiers of default values and two soldiers of 
+    specified values by using one pointer array
+    - Output all the data member values of the soldiers respectively
+    - Output the average weight of all the soldiers
+    - Deallocate the spaces assigned to the pointer array
