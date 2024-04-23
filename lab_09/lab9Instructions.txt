@@ -1,0 +1,10 @@
+||Lab 09 List||
+
+Description - 
+Store the following names in the following order into a C++ list,
+
+Freddy, Larry, Tiger, Paul, Fiona
+
+Output these names in the above order, then sort them and output the names in the sorted order.
+
+(Note: output one name per line in ascending alphabetical order)
