@@ -1,0 +1,11 @@
+||Lab 10 Linked List Application||
+
+Description -
+
+With the linked list we implemented in class, develop the following applications:
+1. Input a series of names;
+2. Output the name list;
+3. Delete a name from the list;
+4. Output the name list;
+5. Insert a new name to the list;
+6. Ouput the name list.
