@@ -32,6 +32,15 @@ int main(){
 
 	car.display();
 
+    cout << "Enter a name to add: ";
+    string addIt;
+    getline(cin, addIt);
+    car.push_back(addIt);
+
+    cout << "\nList after addition: ";
+
+    car.display();
+
 	return 0;
 
 }
