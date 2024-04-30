@@ -1,0 +1,8 @@
+||Lab 11 Stack||
+
+Use STD stack to develop a program that store the following numbers 
+(originally stored in a vector in the following order) on the stack 
+in a certain way such that when they are popped from the stack, they 
+follow an ascending order.
+
+70 21 7 15 190 -1 35
