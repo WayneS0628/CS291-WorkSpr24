@@ -1,0 +1,7 @@
+||Lab 12 Stack Implementation||
+
+Use the stack implemented in class, develop a project 
+footballPlayers with the players’ numbers stored in a stack 
+and then outputted as follows:
+
+58 27 72 100 0
