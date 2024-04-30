@@ -1,12 +1,12 @@
 #include "lab12.h"
 
-Stack::Stack(): maxStack(100), top(-1), items(new string[maxStack]){}
+Stack::Stack(): maxStack(100), top(-1), items(new int[maxStack]){}
 
 Stack::~Stack(){
     delete[] items;
 }
 
-Stack::Stack(int max_size): maxStack(max_size), top(-1), items(new string[maxStack]){}
+Stack::Stack(int max_size): maxStack(max_size), top(-1), items(new int[maxStack]){}
 
 bool Stack::isEmpty() const{
     return(top == -1);
@@ -16,7 +16,7 @@ bool Stack::isFull() const{
     return (top == maxStack-1);
 }
 
-void Stack::Push(string newItem){
+void Stack::Push(int newItem){
     if(isFull()){
         throw "Stack is full.";
     }
@@ -31,7 +31,7 @@ void Stack::Pop(){
     top--;
 }
 
-string Stack::Top() const{
+int Stack::Top() const{
     if(isEmpty()){
         throw "Stack is empty.";
     }

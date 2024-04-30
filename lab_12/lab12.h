@@ -1,5 +1,4 @@
 #include <iostream>
-#include <string>
 #include <cstdlib>
 using namespace std;
 
@@ -7,7 +6,7 @@ class Stack{
 private:
     int top;
     int maxStack;
-    string* items;
+    int* items;
 public:
     Stack();
 
@@ -19,9 +18,9 @@ public:
 
     bool isFull() const;
 
-    void Push(string newItem);
+    void Push(int newItem);
 
     void Pop();
 
-    string Top() const;
+    int Top() const;
 };

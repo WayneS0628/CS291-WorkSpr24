@@ -2,15 +2,17 @@
 
 int main(){
 
-	Stack army;
+	Stack footballPlayers;
     cout << endl;
     try{
-        army.Push("Wolf");
-        army.Push("Tiger");
-        army.Push("Lion");
+        footballPlayers.Push(0);
+        footballPlayers.Push(100);
+        footballPlayers.Push(72);
+        footballPlayers.Push(27);
+        footballPlayers.Push(58);
 
-        for(;!army.isEmpty(); army.Pop()){
-            cout << army.Top() << endl;
+        for(;!footballPlayers.isEmpty(); footballPlayers.Pop()){
+            cout << footballPlayers.Top() << endl;
         }
     }
     catch(const char* exceptionStack){
