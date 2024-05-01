@@ -1,0 +1,9 @@
+||Lab 13 Queue||
+
+Use STD queue to develop a program that store the 
+following numbers (asking the user to input the numbers 
+in the following order) in the queue in a certain way 
+such that when they are popped from the queue, they follow 
+an ascending order.
+
+70 21 7 15 190 -1 35
