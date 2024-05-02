@@ -1,0 +1,11 @@
+||Lab 14 Queue Implementation||
+
+Use the queue implemented in class, develop a project serveTable 
+(like in a restaurant) with the tables’ numbers stored in a queue 
+and then outputted as follows:
+
+25 
+26 
+27 
+28 
+29
